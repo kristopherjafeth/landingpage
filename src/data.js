@@ -24,9 +24,10 @@ import NcIcon from './assets/img/brands/nc.png';
 import Project1 from './assets/img/projects/suministrodepersonal.jpg';
 import Project2 from './assets/img/projects/tendidodelineas.jpg';
 import Project3 from './assets/img/projects/transportelacustre.jpg';
-import Project4 from './assets/img/projects/mantenimiento.png';
+import Project4 from './assets/img/projects/pozos.jpg';
 import Project5 from './assets/img/projects/buceo.jpg';
 import Project6 from './assets/img/projects/obrasciviles.jpg';
+import Project7 from './assets/img/projects/guayafina.jpg';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -110,7 +111,7 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'Servicio de Suministro de personal Obrero',
+    name: 'Servicio de Suministro de Personal Calificado',
     category: 'Servicios Lacustres',
   },
   {
@@ -128,7 +129,7 @@ export const projectsData = [
   {
     id: '4',
     image: Project4,
-    name: 'Mantenimiento de pozos petroleros    ',
+    name: 'Servicio de Mantenimiento de Pozos e Instalaciones Petroleras',
     category: 'Servicios Lacustres',
   },
   {
@@ -140,7 +141,18 @@ export const projectsData = [
   {
     id: '6',
     image: Project6,
-    name: 'Servicio de Obras Civiles',
+    name: 'Servicio de Diseño y Construcción de Obras Civiles y Mecánicas',
+    category: 'Servicios Lacustres',
+  },
+  {
+    id: '7',
+    name: '',
+    category: '',
+  },
+  {
+    id: '8',
+    image: Project7,
+    name: 'Servicio de Guaya Fina',
     category: 'Servicios Lacustres',
   },
 ];
